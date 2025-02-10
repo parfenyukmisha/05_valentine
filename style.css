@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(45deg, #ff758c, #ff7eb3);
+  color: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+p {
+  font-size: 20px;
+  width: 40%;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+img {
+  width: 250px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#information {
+    
+  flex-direction: row;
+  gap: 100px;
+}
+
+.information_about{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.information_about article{
+  width: 1000px;
+}
+
+p{
+  background-color:rgba(131, 59, 59, 0.637)   ;
+  padding: 20px;
+}
